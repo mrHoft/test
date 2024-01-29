@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg fill="#fff" width="800px" height="800px" viewBox="0 0 24 24" id="music-disable" data-name="Flat Line" xmlns="http://www.w3.org/2000/svg">
+<path d="M13,17.5V3a25.84,25.84,0,0,0,3.44,3c1.66,1.07,1.91,2.76,1.15,5" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path>
+<circle cx="9.5" cy="17.5" r="3.5" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></circle>
+<line x1="17" y1="19" x2="8" y2="6" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></line>
+</svg>
