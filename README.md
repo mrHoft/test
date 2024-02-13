@@ -1,19 +1,55 @@
 # Nonograms (wrenched)
-In this game your goal is to solve nonograms with Shrike and Bulldog.
+
+<table>
+  <tr>
+    <td>In this game your goal is to solve nonograms with Shrike and Bulldog.
 Nonograms is a picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the edges of the grid to reveal a hidden picture.
+    </td>
+    <td>
+    <img src="./docs/166e1f478598a3a3beda.webp"/>
+    </td>
+  </tr>
+</table>
+
 ### Characters:
+
 - Shrike: Have ability to instantly solve current puzzle.
- - Bulldog: Able to clear field and reset turns count.
+- Bulldog: Able to clear field and reset turns count.
+
 ### How to solve:
-In this puzzle, the numbers are a form of discrete tomography that measures how many unbroken lines of filled-in squares there are in any given row or column. For example, a clue of \"4 8 3\" would mean there are sets of four, eight, and three filled squares, in that order, with at least one blank square between successive sets.
+
+<table>
+  <tr>
+    <td>In this puzzle, the numbers are a form of discrete tomography that measures how many unbroken lines of filled-in squares there are in any given row or column. For example, a clue of \"4 8 3\" would mean there are sets of four, eight, and three filled squares, in that order, with at least one blank square between successive sets.
+    </td>
+    <td>
+    <img src="./docs/2530e2231d606de06080.webp"/>
+    </td>
+  </tr>
+</table>
+
 ### Author:
-Game was developed by [mrHoft](https://github.com/mrHoft) in 2024 as an educational project of [RSSchool](https://rs.school/) Front-end-s1 course.
-Inspirated by [Zeurel](https://www.youtube.com/@Zeurel) \"Monkey Wrench\".
-No TypeScript, React or any other library used (by task rules): only core JS, only hardcore!
+
+<table>
+  <tr>
+    <td>Game was developed by <a href="https://github.com/mrHoft">mrHoft</a> in 2024 as an educational project of <a href="https://rs.school/">RSSchool</a> Front-end-s1 course. Inspirated by <a href="https://www.youtube.com/@Zeurel">Zeurel</a> "Monkey Wrench". No TypeScript, React or any other library used (by task rules): only core JS, only hardcore!
+    </td>
+    <td>
+    <img src="./docs/c5fb84a7b498360edf86.webp"/>
+    </td>
+  </tr>
+</table>
+
 ### Stack:
+
 - Webpack
 - ESlint
+- SAAS
+
+### Storage [structure](./docs/store.md)
+
 ### Educational [tasks](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/nonograms):
+
 `Basic (required):`
 
 - initially, `body` in the index.html file must be empty (only script tag is allowed), **all necessary elements are generated using JS**
@@ -32,7 +68,7 @@ No TypeScript, React or any other library used (by task rules): only core JS, on
 - the game should include sound effects for events such as mark a cell as black, flagging a cell as X, flagging a cell as empty and win game.
 - the staging of the game is saved (for example, using localStorage) by clicking on button "Save game", so that when player clicks on button "continue last game", he can continue playing from where he left off.
 
-`Additional (to get extra points):`
+`Additional:`
 
 - dark/light themes of the game. Changing the theme implies a change in the entire color scheme of the application, including the background color, cell colors, counters, buttons etc.
 - implement three levels of difficulty in the game: easy (5x5), medium (10x10), and hard (15x15). Each level should vary in the size of the game board and the complexity of the main template (pictures).

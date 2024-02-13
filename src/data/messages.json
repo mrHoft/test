@@ -1,0 +1,46 @@
+{
+  "en": {
+    "reset": ["Yep! Let's clear this field.", "Clearing field also resets your turns."],
+    "solution": ["Using solution make you impossible to score this puzzle.", "It is solution option. Using it prevent you to score your result!"],
+    "save": ["Want to save this game?", "Wanna save your state?", "Saves current game."],
+    "blankFiled": ["...this field is still empty.", "There is still nothing in the field."],
+    "adequateName": "...consider to use adequate name for a new puzzle.",
+    "duplicateName": ["This name is already used.", "Come up with something new."],
+    "editorNew": ["Let's create own puzzle!", "Show your creative skills!", "OK, let's get creative."],
+    "gameNew": [
+      "Wanna play?",
+      "OK, let's do this!",
+      "Time to solve this puzzle!",
+      "What we have here?",
+      "It will be easy!",
+      "Ready for action?",
+      "Let's solve this puzzle!"
+    ],
+    "attemtsHalf": ["Used half of maximum turns!", "Keep track of the attempts used."],
+    "unknown": ["What are you trying to do?", "What are you trying to achieve with this?", "Hm-m-m... What?"],
+    "noSavedGame": ["No saved games.", "Need to save something first.", "No saved records."],
+    "lastGameRecovered": ["Recovered last attempt.", "Welcome back!", "We have uncomplete task here."]
+  },
+  "ru": {
+    "reset": ["Да! Давай очистим.", "Очистка поля также сбрасывает ходы."],
+    "solution": ["Активация подсказки сделает невозможным завершить головоломку.", "Показать решение? Использование не позволит продолжить!"],
+    "save": ["Сохранить эту игру?", "Сохранить текущее состояние?", "Сохраняет текущую игру."],
+    "blankFiled": ["...это поле все еще пусто.", "На поле ещё ничего нет."],
+    "adequateName": "...стоит придумать адекватное название для новой головоломки.",
+    "duplicateName": ["Это имя уже используется.", "Придумай что-нибудь новое."],
+    "editorNew": ["Давай создадим собственную головоломку!", "Прояви творческие способности!", "Давай проявим творческий подход."],
+    "gameNew": [
+      "Хочешь сыграть?",
+      "Ладно, давай сделаем это!",
+      "Время решить эту головоломку!",
+      "Что у нас здесь?",
+      "Это будет легко!",
+      "Готов к действию?",
+      "Давай разгадаем эту головоломку!"
+    ],
+    "attemtsHalf": ["Использована половина максимального количества ходов!", "Следи за использованными ходами."],
+    "unknown": ["Что ты пытаешься сделать?", "Чего ты пытаешься этим добиться?", "Хм-м-м... Чего?"],
+    "noSavedGame": ["Нет сохраненных игр.", "Сначала нужно что-то сохранить.", "Нет сохраненных записей."],
+    "lastGameRecovered": ["Восстановлена последняя попытка.", "С возвращением!", "У нас есть невыполненная задача."]
+  }
+}

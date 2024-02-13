@@ -1,0 +1,122 @@
+.player__audio {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  box-sizing: border-box;
+  width: 10rem;
+  padding: 1rem 0.5rem 0.5rem 0;
+  background-color: var(--color20);
+  border-block: 2px solid rgba(0, 0, 0, 0.8);
+  transition: transform 0.25s ease-in;
+  transform: translateX(8rem);
+  z-index: 2;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: calc(-0.75rem + 2px);
+    height: calc(100% - 1.5rem + 4px);
+    border-top: 0.75rem solid transparent;
+    border-right: 0.75rem solid var(--color20);
+    border-bottom: 0.75rem solid transparent;
+    filter: drop-shadow(-2px 0 rgba(0, 0, 0, 0.8));
+  }
+
+  &:hover {
+    transform: translateX(0);
+  }
+}
+
+.player__title {
+  margin: 0.5rem 0 0.5rem 2rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.volume__sound,
+.volume__music {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.volume__sound_icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+  background-image: url('../public/audio1.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  background-color: transparent;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    scale: 1.1;
+  }
+
+  &.volume-off {
+    background-image: url('../public/audio0.svg');
+  }
+  &.volume-1 {
+    background-image: url('../public/audio1.svg');
+  }
+  &.volume-2 {
+    background-image: url('../public/audio2.svg');
+  }
+  &.volume-3 {
+    background-image: url('../public/audio3.svg');
+  }
+}
+
+.volume__music_icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+  background-image: url('../public/music-on.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  background-color: transparent;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    scale: 1.1;
+  }
+
+  &.volume-off {
+    background-image: url('../public/music-off.svg');
+  }
+}
+
+.volume__range {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  filter: drop-shadow(0 1px rgba(0, 0, 0, 0.8)) drop-shadow(0 -1px rgba(0, 0, 0, 0.8));
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::-webkit-slider-runnable-track {
+    height: 0.25rem;
+    background: var(--color50);
+    padding: 0;
+    margin: 0;
+    border-radius: 0.125rem;
+  }
+
+  &::-webkit-slider-thumb {
+    background-color: var(--color90);
+    border-radius: 50%;
+    cursor: pointer;
+    width: 0.5rem;
+    height: 0.5rem;
+    -webkit-appearance: none;
+    margin-top: -0.125rem;
+  }
+}

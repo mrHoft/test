@@ -1,0 +1,82 @@
+.menu__side {
+  position: absolute;
+  left: 0;
+  background-color: var(--color20);
+  padding: 1rem 0 1rem 1rem;
+  border-block: 2px solid rgba(0, 0, 0, 0.8);
+  transform: translateX(-6.5rem);
+  transition: transform 0.25s ease-in;
+  z-index: 2;
+
+  &:hover {
+    transform: translateX(0);
+  }
+}
+
+.menu__side_right {
+  position: absolute;
+  top: -2px;
+  right: calc(-0.75rem + 2px);
+  height: calc(100% - 1.5rem + 4px);
+  border-top: 0.75rem solid transparent;
+  border-left: 0.75rem solid var(--color20);
+  border-bottom: 0.75rem solid transparent;
+  filter: drop-shadow(2px 0 rgba(0, 0, 0, 0.8));
+}
+
+.menu__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__list_item {
+  position: relative;
+  width: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  cursor: pointer;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 5rem;
+    height: 2px;
+    background-color: currentColor;
+    bottom: 0.25rem;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+  }
+
+  &:hover::before {
+    transform: scaleX(1);
+  }
+
+  &:hover .hex-btn {
+    > :first-child {
+      transform: translateY(-2px);
+    }
+  }
+}
+
+.icon_new {
+  background-image: url('../public/star.svg');
+}
+.icon_random {
+  background-image: url('../public/stars3.svg');
+}
+.icon_load {
+  background-image: url('../public/load.svg');
+}
+.icon_editor {
+  background-image: url('../public/editor.svg');
+}
+.icon_records {
+  background-image: url('../public/list.svg');
+}
+.icon_about {
+  background-image: url('../public/info.svg');
+}

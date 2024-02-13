@@ -1,0 +1,31 @@
+.mode {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 0.5rem;
+}
+
+.mode-select {
+  display: none;
+
+  + label {
+    text-align: center;
+    width: 3rem;
+    border-radius: 2rem;
+    padding: 0.25rem 0.5rem;
+    background-color: var(--color20);
+    border: 2px solid var(--color20);
+    cursor: pointer;
+  }
+
+  &:checked + label {
+    border-color: var(--color60);
+  }
+}
+
+.editor__mode {
+  justify-content: flex-start;
+}
+
+.editor__mode_select + label {
+  background-color: var(--color10);
+}

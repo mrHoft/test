@@ -1,0 +1,96 @@
+{
+  "en": {
+    "newGame": "New game",
+    "randomGame": "Random",
+    "loadGame": "Load game",
+    "editor": "Editor",
+    "records": "Records",
+    "about": "About",
+
+    "startNewGame": "Start new game",
+    "selectPuzzle": "Select puzzle",
+    "preview": "Preview",
+    "start": "Start",
+
+    "win": "Win!",
+    "loose": "Loose!",
+    "timeUsed": "Time",
+    "turnsUsed": "Turns",
+    "score": "Total score",
+    "solutionUsed": "solution used",
+
+    "puzzleName": "Puzzle name",
+    "save": "Save",
+
+    "turnsOut": "Your turns is out.",
+    "timeOut": "Your time is out.",
+
+    "recordsTitle": "Game records:",
+    "aboutTitle": "About:",
+
+    "description": [
+      [
+        "In this game your goal is to solve nonograms with Shrike and Bulldog.",
+        "Nonograms is a picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the edges of the grid to reveal a hidden picture."
+      ],
+      ["### Characters:", "Shrike: Have ability to instantly solve current puzzle.", "Bulldog: Able to clear field and reset turns count."],
+      [
+        "### How to solve:",
+        "In this puzzle, the numbers are a form of discrete tomography that measures how many unbroken lines of filled-in squares there are in any given row or column. For example, a clue of \"4 8 3\" would mean there are sets of four, eight, and three filled squares, in that order, with at least one blank square between successive sets."
+      ],
+      [
+        "### Author:",
+        "Game was developed by [mrHoft](https://github.com/mrHoft) in 2024 as an educational project of [RSSchool](https://rs.school/) Front-end-s1 course.",
+        "Inspirated by [Zeurel](https://www.youtube.com/@Zeurel) \"[Monkey Wrench](https://www.youtube.com/@MonkeyWrenchSeries)\".",
+        "No TypeScript, React or any other library used (by task rules): only core JS, only hardcore!"
+      ]
+    ]
+  },
+  "ru": {
+    "newGame": "Новая игра",
+    "randomGame": "Случайная",
+    "loadGame": "Загрузить",
+    "editor": "Редактор",
+    "records": "Рекорды",
+    "about": "Об игре",
+
+    "startNewGame": "Начать игру",
+    "selectPuzzle": "Выбор пазла",
+    "preview": "Картинка",
+    "start": "Начать",
+
+    "win": "Победа!",
+    "loose": "Поражение!",
+    "timeUsed": "Время",
+    "turnsUsed": "Ходы",
+    "score": "Всего набрано",
+    "solutionUsed": "использована подсказка",
+
+    "puzzleName": "Название",
+    "save": "Сохранить",
+
+    "turnsOut": "Закончились ходы.",
+    "timeOut": "Закончилось время.",
+
+    "recordsTitle": "Рекорды:",
+    "aboutTitle": "Об игре:",
+
+    "description": [
+      [
+        "Суть игры в решении нонограм вместе со Шрайком и Буллдогом.",
+        "Нонограммы это логическая игра - пазл, в которой нужно закрасить клетки в соответствии с цифрами на полях чтобы получить скрытую картинку."
+      ],
+      ["### Персонажи:", "Шрайк: Обладает способностью мгновенно решить пазл.", "Буллдог: Может очистить поле и сбросить счётчик ходов."],
+      [
+        "### Как решать пазлы:",
+        "В этой головоломке числа показывают сколько непрерывных линий заполненных ячеек имеется в любой строке или столбце. Например, подсказка «4 8 3» будет означать, что существуют наборы из четырех, восьми и трех заполненных ячеек в этом порядке, и по крайней мере с одниой пустой ячейкой между ними."
+      ],
+      [
+        "### Автор:",
+        "Игру создал [mrHoft](https://github.com/mrHoft) в 2024 году в рамках образовательного проекта курса [RSSchool](https://rs.school/) Front-end-s1.",
+        "Вдохновлено анимационным сериалом \"[Monkey Wrench](https://www.youtube.com/@MonkeyWrenchSeries)\" от [Zeurel](https://www.youtube.com/@Zeurel).",
+        "Не использованы ни TypeScript, ни React или какие-либо вообще библиотеки (по условиям задачи): только core JS, только хардкор!"
+      ]
+    ]
+  }
+}

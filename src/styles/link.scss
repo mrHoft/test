@@ -1,0 +1,21 @@
+.link {
+  position: relative;
+  cursor: pointer;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    bottom: -0.25rem;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+  }
+}
+
+@media (hover: hover) {
+  .link:hover::before {
+    transform: scaleX(1);
+  }
+}
