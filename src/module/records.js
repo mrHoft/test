@@ -9,10 +9,8 @@ export const updateGameRecords = () => {
   const records = store.get('records')
   const component = document.querySelector('.modal__records_list')
   component.innerHTML = ''
-  // DODO: slice was added to pass a task criteria about "last 5 records". Remove it after the cross-check.
   records
     .sort((a, b) => parseInt(new Date(b.date).getTime() - new Date(a.date).getTime()))
-    .slice(0, 5)
     .forEach(record => {
       const line = document.createElement('li')
       line.className = 'modal__records_item'

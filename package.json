@@ -1,6 +1,6 @@
 {
-  "name": "nonograms",
-  "version": "1.0.0",
+  "name": "nonograms-wrenched",
+  "version": "1.0.1",
   "description": "Puzzle game to reveal a hidden picture by looking at the number clues",
   "private": true,
   "type": "module",
